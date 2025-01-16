@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.background-img{
+    width: 100%;
+    height: auto;
+}
+.box1{
+   
+    border: 3px solid #322d29;
+    height: 317px;
+    width: 245px;
+    border-radius: 8px;
+    background-color: #322d299f;
+    margin: 32px;
+    padding: 108px;
+    margin-top: -624px;
+    margin-left: 500px;
+}
+
+.back{
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+height: 701px;
+width: 100%;
+background-size: cover;
+}
+h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    color: aliceblue;
+}
