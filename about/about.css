@@ -25,8 +25,29 @@ height: 701px;
 width: 100%;
 background-size: cover;
 }
-h1{
-    font-family: 'Brush Script MT', cursive;
+p{
+    font-family:  cursive ;
     font-size: 50px;
     color: aliceblue;
+}
+p2{
+    font-family: cursive;
+    color: beige;
+    font-size: 25px;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    margin: -76px;
+    margin-left: 16px;
+}
+.box3{
+    margin: -59px;
+    padding: 2px;
+    margin-top: -25px;
+    margin-left: 9px;
+}
+.box4{
+    width: 300px;
+    height: 50px;
 }
