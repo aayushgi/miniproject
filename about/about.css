@@ -1,4 +1,4 @@
-      * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,13 @@
     margin-top: -624px;
     margin-left: 500px;
     height: auto; /* Allow height to adjust based on content */
+    transition: background-color 0.5s, border-color 0.5s, transform 0.3s, opacity 0.3s; /* Smooth transition for hover effect */
+}
+.box1:hover {
+    background-color: #322d29e6; /* Change background color on hover */
+    border-color: #322d299f; /* Change border color on hover */
+    transform: scale(1.05); /* Scale up the box on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
 }
 .back {
     background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
