@@ -1,53 +1,46 @@
-*{
-   margin: 0;
-   padding: 0;
+      * {
+    margin: 0;
+    padding: 0;
 }
-.background-img{
+.background-img {
     width: 100%;
     height: auto;
 }
-.box1{
-   
+.box1 {
     border: 3px solid #322d29;
-    height: 317px;
-    width: 245px;
+    width: 400px;
     border-radius: 8px;
     background-color: #322d299f;
     margin: 32px;
-    padding: 108px;
+    padding: 20px; /* Adjusted padding for better fit */
     margin-top: -624px;
     margin-left: 500px;
+    height: auto; /* Allow height to adjust based on content */
 }
-
-.back{
+.back {
     background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-height: 701px;
-width: 100%;
-background-size: cover;
+    height: 701px;
+    width: 100%;
+    background-size: cover;
 }
-p{
-    font-family:  cursive ;
+p {
+    font-family: cursive;
     font-size: 50px;
     color: aliceblue;
 }
-p2{
+p2 {
     font-family: cursive;
     color: beige;
     font-size: 25px;
 }
-.box2{
-    width: 300px;
-    height: 200px;
-    margin: -76px;
-    margin-left: 16px;
+.box2 {
+    width: 100%; /* Use full width */
+    height: auto; /* Adjust height based on content */
+    margin: 0; /* Reset margin */
+    margin-left: 87px;
 }
-.box3{
-    margin: -59px;
+.box3 {
+    margin: 0; /* Reset margin */
     padding: 2px;
-    margin-top: -25px;
-    margin-left: 9px;
-}
-.box4{
-    width: 300px;
-    height: 50px;
+    margin-left: 62px;
 }
